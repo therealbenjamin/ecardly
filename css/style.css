@@ -7,14 +7,14 @@ body {
 }
 
 img.logo {
-  padding-top: 20px;
+  padding: 20px 0 20px 0;
 }
 
 .featured {
   width: 470px;
   float: left;
   background-color: white;
-  padding: 0 480px 30px 10px;
+  padding: 0 480px 8px 10px;
   position: relative;
 }
 
@@ -45,7 +45,7 @@ article > img {
 
 .sidebar {
   background-color: darkgray;
-  padding: 310px 20px 0 750px;
+  padding: 340px 20px 0 760px;
 }
 
 a {
@@ -74,4 +74,13 @@ footer {
 .clear {
   float: none;
   clear: both;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
 }
