@@ -1,9 +1,29 @@
-.main {
-  background-color: white;
+
+body {
+  background: #c4c0bf url(../images/background_light.jpg);
+  background-repeat: repeat-x;
+  width: 960px;
+  margin: 0 auto;
 }
 
+body > header > img {
+  padding-top: 20px;
+}
+
+.featured {
+  width: 480px;
+  float: left;
+}
+
+.ecard {
+  padding-left: 12px;
+}
+
+.main {
+  background-color: white;
+
 .sidebar {
-  background-color: darkgray
+  background-color: darkgray;
 }
 
 footer {
@@ -13,3 +33,4 @@ footer {
   padding: 1em;
   font-size: .75em;
 }
+
