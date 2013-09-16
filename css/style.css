@@ -1,6 +1,8 @@
 body {
-  background: #CBCACA url(../images/background_light.jpg) no-repeat;
+  background: #c4c0bf url(../images/background_light.jpg);
+  background-repeat: repeat-x;
   width: 960px;
+  margin: 0 auto;
 }
 
 body > header > img {
@@ -8,11 +10,16 @@ body > header > img {
 }
 
 .featured {
+  width: 480px;
   float: left;
 }
 
+.ecard {
+  padding-left: 12px;
+}
+
 .sidebar {
-  background-color: darkgray
+  background-color: darkgray;
 }
 
 footer {
