@@ -16,6 +16,8 @@ img.logo {
   background-color: white;
   padding: 0 480px 8px 10px;
   position: relative;
+  background: white url(../images/background_block_slice.jpg);
+  background-repeat: repeat-x;
 }
 
 article > img {
@@ -32,11 +34,12 @@ article > img {
 }
 
 .main {
-  background-color: #ddd;
   width: 75%;
   float: left;
   margin-top: -5px;
   padding: 0 10px 0 10px;
+  background: #fff url(../images/background-inner.jpg);
+  background-repeat: repeat-x;
 }
 
 .main > article {
@@ -79,8 +82,14 @@ footer {
 h2 {
   font-size: 2em;
   font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
   font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
 }
