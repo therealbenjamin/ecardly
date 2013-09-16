@@ -13,16 +13,21 @@ img.logo {
 .featured {
   width: 480px;
   float: left;
+  background-color: white;
+  padding-bottom: 6px;
 }
 
 .ecard {
   padding-left: 12px;
+  background-color: white;
 }
 
 .main {
   background-color: white;
   width: 75%;
   float: left;
+  margin-top: -5px;
+}
 
 .sidebar {
   background-color: darkgray;
