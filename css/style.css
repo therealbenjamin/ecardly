@@ -14,12 +14,21 @@ img.logo {
   width: 480px;
   float: left;
   background-color: white;
-  padding-bottom: 6px;
+  padding: 0 480px 30px 10px;
+  position: relative;
+}
+
+article > img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .ecard {
   padding-left: 12px;
   background-color: white;
+  padding:1px;
+  border:1px solid #021a40;
 }
 
 .main {
