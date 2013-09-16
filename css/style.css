@@ -29,6 +29,10 @@ img.logo {
   margin-top: -5px;
 }
 
+.main > article {
+  border-bottom: 2px solid lightgray;
+}
+
 .sidebar {
   background-color: darkgray;
 }
