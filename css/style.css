@@ -11,7 +11,7 @@ img.logo {
 }
 
 .featured {
-  width: 480px;
+  width: 470px;
   float: left;
   background-color: white;
   padding: 0 480px 30px 10px;
@@ -32,10 +32,11 @@ article > img {
 }
 
 .main {
-  background-color: white;
+  background-color: #ddd;
   width: 75%;
   float: left;
   margin-top: -5px;
+  padding: 0 10px 0 10px;
 }
 
 .main > article {
@@ -44,6 +45,21 @@ article > img {
 
 .sidebar {
   background-color: darkgray;
+  padding: 310px 20px 0 750px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul > li {
+  text-decoration: none;
+  list-style: none;
+  line-height: 2em;
+}
+
+li a {
+  color: #555;
 }
 
 footer {
