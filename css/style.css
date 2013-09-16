@@ -1,0 +1,12 @@
+body {
+  background: #CBCACA url(../images/background_light.jpg) no-repeat;
+  width: 960px;
+}
+
+body > header > img {
+  padding-top: 20px;
+}
+
+.featured {
+  float: left;
+}
