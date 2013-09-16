@@ -10,3 +10,16 @@ body > header > img {
 .featured {
   float: left;
 }
+
+.sidebar {
+  background-color: darkgray
+}
+
+footer {
+  background-color: black;
+  color: darkgray;
+  text-align: right;
+  padding: 1em;
+  font-size: .75em;
+}
+
